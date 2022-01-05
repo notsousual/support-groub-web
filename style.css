@@ -1,0 +1,126 @@
+body {
+    font-family: 'Merriweather';
+    text-align: center;
+    background-color: rgb(243, 234, 225);
+    color: rgb(58, 42, 37);
+}
+
+a {
+    font-weight: 800;
+    color: rgb(58, 42, 37);
+    text-decoration: inherit;
+    font-size: 3.2vh;
+    transition: 0.2s;
+    
+   
+}
+a:hover {
+    color:rgb(252, 125, 87);
+    text-decoration: none;
+    
+
+}
+h1 {
+    margin-top: 30px;
+    font-weight: 800;
+    margin: 20px 5px;
+
+}
+h2 {
+    padding: 5px;
+    margin: 10px 0;
+    /* font-weight: 600; */
+}
+h3 {
+    /* font-size: 3.5vh; */
+
+}
+p {
+    font-size: 3vh;
+    opacity: 0.7;
+    padding: 5px;
+
+}
+
+.p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.item {
+    margin: 0px 2px;
+}
+
+.header {
+    /* background: linear-gradient(90deg, rgb(169, 204, 160) 0%,rgb(155, 209, 188) 90%); */
+    /* background: rgb(169, 204, 160); */
+    /* color: white; */
+    /* border-width: 10px; */
+    /* border: 2px solid;
+
+    margin: 5px 100px;
+    overflow: visible;
+
+ 
+    border-image: linear-gradient(to left, rgba(58, 42, 37, 0.8), rgba(58, 42, 37, 0.8)) 1 0; */
+}
+
+
+
+
+
+.navbar {
+    
+
+    background: linear-gradient(90deg,rgb(243, 234, 225) 0%,rgb(243, 234, 225) 90%);
+    color: rgb(58, 42, 37);
+
+}
+
+.line {
+    height: 2px;
+    /* width: 100%; */
+    background: rgba(58, 42, 37, 0.6);
+    margin: 10px 100px;
+    z-index: 9999;
+    
+}
+
+img {
+    border-radius: 16px;
+    transition: 00.2s;
+    width: 45vh;
+    margin: 10px 0;
+}
+#bang {
+    width: 50vh;
+
+}
+
+.imgcover {
+    max-height: 300px;
+
+}
+
+
+.person {
+    height: 100%;
+   
+ }
+  
+ @media screen and (min-width: 100px) and (max-width: 500px) {
+
+    #bang {
+        width: 17vh;
+    
+    }
+
+    img {
+
+        width: 17vh;
+
+    }
+
+
+  }
+  
