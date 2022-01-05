@@ -109,6 +109,9 @@ img {
  }
   
  @media screen and (min-width: 100px) and (max-width: 500px) {
+     body {
+        font-family: 'Merriweather';
+    }
      #bang {
             width: 40vh;
 
